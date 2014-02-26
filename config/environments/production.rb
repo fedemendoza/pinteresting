@@ -80,7 +80,7 @@ Pinteresting::Application.configure do
 
   #Required for Heroku
   #Note to set this your actual host
-  config.action_mailer.default_url_options = { :host => 'mrpinterest.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'omrpinterest.herokuapp.com/' }
 
   #Sets Peperclip to upload images to Amazon S3
   config.paperclip_defaults = {
